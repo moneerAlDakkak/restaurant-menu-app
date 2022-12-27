@@ -1,6 +1,6 @@
-#Mini Restaurant menu project 
+# Mini Restaurant menu project 
 
-##Built with :
+## Built with :
 - Nuxt3 & Vue3
 - NodeJs & Typescript
 - Mairs (UI library : https://mairs.moneeraldakkak.com)
