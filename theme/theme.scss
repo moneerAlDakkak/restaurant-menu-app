@@ -1,0 +1,17 @@
+@use "mairs/style" as *;
+
+body {
+  @include setupTheme(
+    "dark",
+    $colors: (
+      "main": #141414,
+      "accent": #da9b0a,
+      "onAccent": #fff,
+      "text": #fff,
+      "box": #333
+    ),
+    $gradients: ("gradient1": linear-gradient(-45deg, #000 0%, #1c1c1c 100%)),
+    $fonts: ("en1": "Poppins", "ar1": "Poppins"),
+    $ui: ("radius": 4px, "grid": 16px)
+  );
+}
